@@ -3,7 +3,7 @@ import streamlit as st
 # ---------- PAGE SETUP -------------
 
 home_page=st.Page(
-    page="home.py",
+    page="Home.py",
     title="Home",
     icon=":material/home:",
     default=True,
