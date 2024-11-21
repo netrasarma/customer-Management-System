@@ -37,7 +37,7 @@ page.run()
 
 
 #--------- Logo for all page------------
-st.logo("CMS\icons\logom.png")
+st.logo("logom.png")
 
 
 
