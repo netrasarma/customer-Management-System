@@ -19,7 +19,7 @@ admin=st.Page(
     icon=":material/admin_panel_settings:",
 )
 contact=st.Page(
-    page="contact.py",
+    page="Contact.py",
     title="Contact",
     icon=":material/contact_phone:",
 )
