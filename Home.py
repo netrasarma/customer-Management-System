@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Customer Management System",
-    page_icon="C:\Projects\Employee\Scripts\CMS\icons\icon.png"
+    page_icon="icon.png"
     )
 
 #--------------PAGE SETUP ----------------
@@ -15,7 +15,7 @@ st.markdown("<h4 style='text-align: center;'>Welcome to</h4>",unsafe_allow_html=
 st.markdown("<h2 style='text-align: center;'>Customer Management System</h2>",unsafe_allow_html=True)
 st.markdown('<style>div.block-container{padding-top:3rem}</style',unsafe_allow_html=True)
 st.write("\n")
-st.image("CMS\icons\cms.webp")
+st.image("cms.webp")
 
 st.write("\n")
 st.write("\n")
