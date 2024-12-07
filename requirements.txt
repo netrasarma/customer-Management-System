@@ -1,6 +1,4 @@
 mysql.connector
 seaborn
 plotly
-time
-datetime
 matplotlib
