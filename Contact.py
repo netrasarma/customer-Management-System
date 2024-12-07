@@ -24,7 +24,7 @@ def validate_email(email):
 
 col1, col2=st.columns(2,gap="small",vertical_alignment="center")
 with col1:
-    st.image("CMS\icons\contact.png", width=220)
+    st.image("contact.png", width=220)
 with col2:
     st.markdown("<h2 style='text-align: left;'>Contact Us</h2>", unsafe_allow_html=True)
     st.write(
