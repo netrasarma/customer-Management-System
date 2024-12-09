@@ -7,7 +7,7 @@ import mysql.connector
 def create_connection():
     try:
         mydb = mysql.connector.connect(
-            host="34.100.224.51",
+            host="34.47.171.23",
             user="netrasarma",
             password="NETra@186",
             database="customer"
