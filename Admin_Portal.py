@@ -5,10 +5,10 @@ import mysql.connector
 def create_connection():
     try:
         mydb = mysql.connector.connect(
-            host="localhost",
+            host="34.100.224.51",
             user="root",
-            password="12345",
-            database="customer"
+            password="NETra@186",
+            database="netrasarma"
         )
         if mydb.is_connected():
             return mydb
