@@ -1,12 +1,15 @@
+
 import streamlit as st
 import pandas as pd
+import sqlite3
+from google.cloud import storage
 import mysql.connector
 
 def create_connection():
     try:
         mydb = mysql.connector.connect(
             host="34.100.224.51",
-            user="root",
+            user="netrasarma",
             password="NETra@186",
             database="customer"
         )
