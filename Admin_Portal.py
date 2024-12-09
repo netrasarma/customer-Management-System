@@ -2,7 +2,6 @@
 import streamlit as st
 import pandas as pd
 import sqlite3
-from google.cloud import storage
 import mysql.connector
 
 def create_connection():
