@@ -11,7 +11,7 @@ from datetime import datetime
 def create_connection():
     try:
         mydb = mysql.connector.connect(
-            host="netrasarma",
+            host="localhost",
             user="root",
             password="NETra@186",
             database="customer"
