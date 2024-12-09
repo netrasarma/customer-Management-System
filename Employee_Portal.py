@@ -14,7 +14,7 @@ def create_connection():
             host="34.100.224.51",
             user="root",
             password="NETra@186",
-            database="netrasarma"
+            database="customer"
         )
         if mydb.is_connected():
             return mydb
